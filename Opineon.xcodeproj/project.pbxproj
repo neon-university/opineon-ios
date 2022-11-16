@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		AD4C9F8F2923BC5200D12AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9F8E2923BC5200D12AEC /* AppDelegate.swift */; };
 		AD4C9F912923BC5200D12AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9F902923BC5200D12AEC /* SceneDelegate.swift */; };
-		AD4C9F932923BC5200D12AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9F922923BC5200D12AEC /* ViewController.swift */; };
 		AD4C9F962923BC5200D12AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C9F942923BC5200D12AEC /* Main.storyboard */; };
 		AD4C9F982923BC5400D12AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4C9F972923BC5400D12AEC /* Assets.xcassets */; };
 		AD4C9F9B2923BC5400D12AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C9F992923BC5400D12AEC /* LaunchScreen.storyboard */; };
 		AD4C9FA62923BC5400D12AEC /* OpineonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FA52923BC5400D12AEC /* OpineonTests.swift */; };
 		AD4C9FB02923BC5400D12AEC /* OpineonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FAF2923BC5400D12AEC /* OpineonUITests.swift */; };
 		AD4C9FB22923BC5400D12AEC /* OpineonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FB12923BC5400D12AEC /* OpineonUITestsLaunchTests.swift */; };
+		AD4C9FD42923C64400D12AEC /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C9FD32923C64400D12AEC /* Auth.storyboard */; };
+		AD4C9FD82923C76F00D12AEC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FD72923C76F00D12AEC /* LaunchViewController.swift */; };
+		AD4C9FDB2923C84500D12AEC /* LaunchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FDA2923C84500D12AEC /* LaunchScreenViewModel.swift */; };
+		AD4C9FDD2923CB7800D12AEC /* PhoneAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FDC2923CB7800D12AEC /* PhoneAuthViewController.swift */; };
+		AD4C9FE12923CE4300D12AEC /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C9FE02923CE4300D12AEC /* StoryboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		AD4C9F8B2923BC5200D12AEC /* Opineon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opineon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4C9F8E2923BC5200D12AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD4C9F902923BC5200D12AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD4C9F922923BC5200D12AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD4C9F952923BC5200D12AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD4C9F972923BC5400D12AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4C9F9A2923BC5400D12AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		AD4C9FAB2923BC5400D12AEC /* OpineonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpineonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4C9FAF2923BC5400D12AEC /* OpineonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpineonUITests.swift; sourceTree = "<group>"; };
 		AD4C9FB12923BC5400D12AEC /* OpineonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpineonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD4C9FD32923C64400D12AEC /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		AD4C9FD72923C76F00D12AEC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		AD4C9FDA2923C84500D12AEC /* LaunchScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewModel.swift; sourceTree = "<group>"; };
+		AD4C9FDC2923CB7800D12AEC /* PhoneAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewController.swift; sourceTree = "<group>"; };
+		AD4C9FE02923CE4300D12AEC /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,9 @@
 		AD4C9F8D2923BC5200D12AEC /* Opineon */ = {
 			isa = PBXGroup;
 			children = (
+				AD4C9FBE2923C5EE00D12AEC /* Source */,
 				AD4C9F8E2923BC5200D12AEC /* AppDelegate.swift */,
 				AD4C9F902923BC5200D12AEC /* SceneDelegate.swift */,
-				AD4C9F922923BC5200D12AEC /* ViewController.swift */,
 				AD4C9F942923BC5200D12AEC /* Main.storyboard */,
 				AD4C9F972923BC5400D12AEC /* Assets.xcassets */,
 				AD4C9F992923BC5400D12AEC /* LaunchScreen.storyboard */,
@@ -125,6 +133,218 @@
 				AD4C9FB12923BC5400D12AEC /* OpineonUITestsLaunchTests.swift */,
 			);
 			path = OpineonUITests;
+			sourceTree = "<group>";
+		};
+		AD4C9FBE2923C5EE00D12AEC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FBF2923C5EE00D12AEC /* Database */,
+				AD4C9FC02923C5EE00D12AEC /* Module */,
+				AD4C9FD12923C5EE00D12AEC /* Network */,
+				AD4C9FD22923C5EE00D12AEC /* Utility */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AD4C9FBF2923C5EE00D12AEC /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AD4C9FC02923C5EE00D12AEC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FD52923C73200D12AEC /* Launch */,
+				AD4C9FC12923C5EE00D12AEC /* Settings */,
+				AD4C9FC22923C5EE00D12AEC /* Home */,
+				AD4C9FC62923C5EE00D12AEC /* Auth */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AD4C9FC12923C5EE00D12AEC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AD4C9FC22923C5EE00D12AEC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FC32923C5EE00D12AEC /* ViewModel */,
+				AD4C9FC42923C5EE00D12AEC /* Model */,
+				AD4C9FC52923C5EE00D12AEC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AD4C9FC32923C5EE00D12AEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD4C9FC42923C5EE00D12AEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD4C9FC52923C5EE00D12AEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD4C9FC62923C5EE00D12AEC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FC72923C5EE00D12AEC /* ViewModel */,
+				AD4C9FC82923C5EE00D12AEC /* Model */,
+				AD4C9FC92923C5EE00D12AEC /* View */,
+				AD4C9FCA2923C5EE00D12AEC /* Scene */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AD4C9FC72923C5EE00D12AEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD4C9FC82923C5EE00D12AEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD4C9FC92923C5EE00D12AEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FD32923C64400D12AEC /* Auth.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD4C9FCA2923C5EE00D12AEC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FCB2923C5EE00D12AEC /* OneTimeCode */,
+				AD4C9FCE2923C5EE00D12AEC /* PhoneNumber */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		AD4C9FCB2923C5EE00D12AEC /* OneTimeCode */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FCC2923C5EE00D12AEC /* Controller */,
+				AD4C9FCD2923C5EE00D12AEC /* Model */,
+			);
+			path = OneTimeCode;
+			sourceTree = "<group>";
+		};
+		AD4C9FCC2923C5EE00D12AEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD4C9FCD2923C5EE00D12AEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD4C9FCE2923C5EE00D12AEC /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FCF2923C5EE00D12AEC /* Controller */,
+				AD4C9FD02923C5EE00D12AEC /* Model */,
+			);
+			path = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		AD4C9FCF2923C5EE00D12AEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FDC2923CB7800D12AEC /* PhoneAuthViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD4C9FD02923C5EE00D12AEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD4C9FD12923C5EE00D12AEC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AD4C9FD22923C5EE00D12AEC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FDE2923CE2900D12AEC /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AD4C9FD52923C73200D12AEC /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FD92923C82C00D12AEC /* ViewModel */,
+				AD4C9FD62923C74600D12AEC /* Scene */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		AD4C9FD62923C74600D12AEC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FD72923C76F00D12AEC /* LaunchViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		AD4C9FD92923C82C00D12AEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FDA2923C84500D12AEC /* LaunchScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD4C9FDE2923CE2900D12AEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FDF2923CE2F00D12AEC /* Storyboard */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD4C9FDF2923CE2F00D12AEC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C9FE02923CE4300D12AEC /* StoryboardExtension.swift */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4C9FD42923C64400D12AEC /* Auth.storyboard in Resources */,
 				AD4C9F9B2923BC5400D12AEC /* LaunchScreen.storyboard in Resources */,
 				AD4C9F982923BC5400D12AEC /* Assets.xcassets in Resources */,
 				AD4C9F962923BC5200D12AEC /* Main.storyboard in Resources */,
@@ -258,8 +479,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4C9F932923BC5200D12AEC /* ViewController.swift in Sources */,
 				AD4C9F8F2923BC5200D12AEC /* AppDelegate.swift in Sources */,
+				AD4C9FDD2923CB7800D12AEC /* PhoneAuthViewController.swift in Sources */,
+				AD4C9FDB2923C84500D12AEC /* LaunchScreenViewModel.swift in Sources */,
+				AD4C9FD82923C76F00D12AEC /* LaunchViewController.swift in Sources */,
+				AD4C9FE12923CE4300D12AEC /* StoryboardExtension.swift in Sources */,
 				AD4C9F912923BC5200D12AEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,11 +664,14 @@
 				DEVELOPMENT_TEAM = 5Y8B82DJKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Opineon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Opineon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +679,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.magic.Opineon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,11 +698,14 @@
 				DEVELOPMENT_TEAM = 5Y8B82DJKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Opineon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Opineon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +713,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.magic.Opineon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
